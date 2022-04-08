@@ -4,23 +4,31 @@ using UnityEngine;
 
 public class CamControl : MonoBehaviour
 {
-  public float speedH = 2.0f;
-  public float speedV = 2.0f;
 
-  private float yaw = 0.0f;
-  private float pitch = 0.0f;
-    // Start is called before the first frame update
-    void Start()
-    {
-      Cursor.visible = false;
-    }
+  public float mouseSensitivity = 100.0f;
+  public float clampAngle = 80.0f;
 
-    // Update is called once per frame
-    void Update()
-    {
-      yaw += speedH * Input.GetAxis("Mouse X");
-      pitch -= speedV * Input.GetAxis("Mouse Y");
+  private float rotY = 0.0f; // rotation around the up/y axis
+  private float rotX = 0.0f; // rotation around the right/x axis
 
-      transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
-    }
+  void Start ()
+  {
+      Vector3 rot = transform.localRotation.eulerAngles;
+      rotY = rot.y;
+      rotX = rot.x;
+  }
+
+  void Update ()
+  {
+      float mouseX = Input.GetAxis("Mouse X");
+      float mouseY = -Input.GetAxis("Mouse Y");
+
+      rotY += mouseX * mouseSensitivity * Time.deltaTime;
+      rotX += mouseY * mouseSensitivity * Time.deltaTime;
+
+      rotX = Mathf.Clamp(rotX, -clampAngle, clampAngle);
+
+      Quaternion localRotation = Quaternion.Euler(rotX, rotY, 0.0f);
+      transform.rotation = localRotation;
+  }
 }
