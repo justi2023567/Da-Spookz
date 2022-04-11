@@ -7,7 +7,7 @@ public class Movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+      GetComponent<Rigidbody>().useGravity = true;
     }
 
     // Update is called once per frame
@@ -25,8 +25,6 @@ public class Movement : MonoBehaviour
         if (Input.GetKey(KeyCode.A) /* other function GetKey and GetKeyUp number on top are Alpha1-9 */) {
           transform.Translate(Vector3.left * Time.deltaTime * 20); // Time.deltaTime run at every 0.2 seconds and first agruement uses speed.
         }
-        if (Input.GetKeyDown(KeyCode.Space) /* other function GetKey and GetKeyUp number on top are Alpha1-9 */) {
-          transform.Translate(Vector3.up * Time.deltaTime * 40); // Time.deltaTime run at every 0.2 seconds and first agruement uses speed.
-        }
+
     }
 }
