@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CamControl : MonoBehaviour
+public class MouseLook : MonoBehaviour
 {
   public float mouseSensitivity = 100f;
 
