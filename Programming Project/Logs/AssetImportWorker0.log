@@ -15,11 +15,11 @@ C:/Users/janderson/OneDrive - York County School of Technology/Documents/GitHub/
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49713
+63201
 Successfully changed project path to: C:/Users/janderson/OneDrive - York County School of Technology/Documents/GitHub/Da-Spookz/Programming Project
 C:/Users/janderson/OneDrive - York County School of Technology/Documents/GitHub/Da-Spookz/Programming Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.00 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 53.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.32f1 (12f8b0834f07)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56392
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003195 seconds.
+Registered in 0.003380 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 27.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.554 seconds
+- Completed reload, in  0.646 seconds
 Domain Reload Profiling:
-	ReloadAssembly (555ms)
-		BeginReloadAssembly (74ms)
+	ReloadAssembly (646ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (405ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (454ms)
+			LoadAssemblies (104ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (136ms)
+			SetupTypeCache (148ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (144ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (169ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (28ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (75ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (31ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004434 seconds.
+Registered in 0.004942 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.957 seconds
+- Completed reload, in  3.284 seconds
 Domain Reload Profiling:
-	ReloadAssembly (958ms)
-		BeginReloadAssembly (151ms)
+	ReloadAssembly (3285ms)
+		BeginReloadAssembly (185ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (748ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (2969ms)
+			LoadAssemblies (218ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (257ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (281ms)
+			SetupTypeCache (1262ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (207ms)
+			SetupLoadedEditorAssemblies (876ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (168ms)
+				InitializePlatformSupportModulesInManaged (80ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (9ms)
+				BeforeProcessingInitializeOnLoad (351ms)
+				ProcessInitializeOnLoadAttributes (410ms)
 				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1523 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.9 MB.
-System memory in use after: 85.0 MB.
+System memory in use before: 93.0 MB.
+System memory in use after: 93.1 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1978.
-Total: 2.385500 ms (FindLiveObjects: 0.141700 ms CreateObjectMapping: 0.077600 ms MarkObjects: 2.145300 ms  DeleteObjects: 0.020100 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1987.
+Total: 2.742200 ms (FindLiveObjects: 0.187700 ms CreateObjectMapping: 0.052300 ms MarkObjects: 2.473100 ms  DeleteObjects: 0.028100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -136,233 +136,1967 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Zurtle.blend
   artifactKey: Guid(501c3bee6e0faf44183a0f96cdb1352c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zurtle.blend using Guid(501c3bee6e0faf44183a0f96cdb1352c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a72643737b72dd6ca792fc30158dd9') in 0.230263 seconds 
+Start importing Assets/Zurtle.blend using Guid(501c3bee6e0faf44183a0f96cdb1352c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cc37e70f0e598525c5f9d783389933') in 0.245813 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.015377 seconds.
-  path: Assets/Zurtle.fbx
-  artifactKey: Guid(f0076adf13cfc454c9bec7ec5b912d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zurtle.fbx using Guid(f0076adf13cfc454c9bec7ec5b912d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcbbf199c398a1bece78af4af58e1da') in 0.088697 seconds 
+  Time since last request: 246.435585 seconds.
+  path: Assets/Tree_Textures/diffuse.png
+  artifactKey: Guid(568c23a2303da0f4abcda83a5bc1b391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/diffuse.png using Guid(568c23a2303da0f4abcda83a5bc1b391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd81c6d0cb7ae3bec76fc5beae76c1a') in 0.049138 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 61.991616 seconds.
-  path: Assets/FBX
-  artifactKey: Guid(615420b2291ccd546b327b361785d216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX using Guid(615420b2291ccd546b327b361785d216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c1c58923f596f98e0aca6f0cd5ef0a') in 0.041206 seconds 
+  Time since last request: 0.001254 seconds.
+  path: Assets/Tree_Textures/translucency_gloss.png
+  artifactKey: Guid(b719858854e50b54697f889c8806c6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/translucency_gloss.png using Guid(b719858854e50b54697f889c8806c6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dbfa99feb79ac1ffb2ab9051ea9e13f') in 0.074521 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.687366 seconds.
-  path: Assets/FBX/textures
-  artifactKey: Guid(3fe0df0d89ce4d348b284121b66dd7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/textures using Guid(3fe0df0d89ce4d348b284121b66dd7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518f97aae1d33568196066259d4c002f') in 0.028885 seconds 
+  Time since last request: 0.013584 seconds.
+  path: Assets/Tree_Textures/shadow.png
+  artifactKey: Guid(0db82183106ea454a95a2a544e844a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/shadow.png using Guid(0db82183106ea454a95a2a544e844a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da503c3f852fa9bb9fd346a33c5f856') in 0.127192 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 97.316737 seconds.
-  path: Assets/FBX/Materials
-  artifactKey: Guid(b68a80e6405e66d4e847db27f1ac6301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/Materials using Guid(b68a80e6405e66d4e847db27f1ac6301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc18af23b00f744fbd9d6a662d2fb81') in 0.032231 seconds 
+  Time since last request: 0.003595 seconds.
+  path: Assets/Tree_Textures/normal_specular.png
+  artifactKey: Guid(de1bbcf0dcad8a64abf69fdd69a3a9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/normal_specular.png using Guid(de1bbcf0dcad8a64abf69fdd69a3a9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e637c2d26add4d76ab0f906c1635a4') in 0.047799 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.685250 seconds.
-  path: Assets/FBX/Zurtle.fbx
-  artifactKey: Guid(f0076adf13cfc454c9bec7ec5b912d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/Zurtle.fbx using Guid(f0076adf13cfc454c9bec7ec5b912d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db61dbcd0bbfcb5c7257a7b12f32b13a') in 0.097949 seconds 
+  Time since last request: 16.046283 seconds.
+  path: Assets/Scenes/Material.001 Base Color.png
+  artifactKey: Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Material.001 Base Color.png using Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae18796ad5a17ce92fac52cd92b6e98d') in 0.030378 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.242374 seconds.
-  path: Assets/FBX/Textures
-  artifactKey: Guid(3fe0df0d89ce4d348b284121b66dd7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/Textures using Guid(3fe0df0d89ce4d348b284121b66dd7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613d46f52cd809fdb71ef7c76f54b25f') in 0.020700 seconds 
+  Time since last request: 20.341921 seconds.
+  path: Assets/Tree_Textures/Materials
+  artifactKey: Guid(0e7a9588f473a2e40aee66746c10c254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/Materials using Guid(0e7a9588f473a2e40aee66746c10c254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599e4b979f936319804d26561584a1a4') in 0.011788 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.266616 seconds.
-  path: Assets/FBX/Materials/Material.001.mat
-  artifactKey: Guid(3fa8fd15530d0604eb49342935fda044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/Materials/Material.001.mat using Guid(3fa8fd15530d0604eb49342935fda044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd760498b4c1d151342943b89a990f85f') in 0.036962 seconds 
+  Time since last request: 0.059304 seconds.
+  path: Assets/Tree_Textures/Materials/diffuse.mat
+  artifactKey: Guid(bf4509bc53a5c0e4da80d501ef6afefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/Materials/diffuse.mat using Guid(bf4509bc53a5c0e4da80d501ef6afefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34911883fd9d2db12af318b714e08153') in 0.036936 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 99.511770 seconds.
-  path: Assets/Zurtle.blend1
-  artifactKey: Guid(df154d5ad975a244e8f04e6b1a413bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zurtle.blend1 using Guid(df154d5ad975a244e8f04e6b1a413bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18f936ae61a7fe7209ce47a503ceaa9') in 0.013281 seconds 
+  Time since last request: 0.000508 seconds.
+  path: Assets/Tree_Textures/Materials/normal_specular.mat
+  artifactKey: Guid(f697a2ec71c197c42a1e99403a2c7881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/Materials/normal_specular.mat using Guid(f697a2ec71c197c42a1e99403a2c7881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a8b1b17bb66f7c95417f32680d7f41') in 0.052016 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 117.288237 seconds.
-  path: Assets/Zurtle.blend
-  artifactKey: Guid(501c3bee6e0faf44183a0f96cdb1352c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zurtle.blend using Guid(501c3bee6e0faf44183a0f96cdb1352c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ce81e0f48d6b8c1f5a16df0aa8d3e5') in 0.082209 seconds 
+  Time since last request: 41.026652 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6009a9514679eebf03c8fccbeb17394') in 0.080245 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 183.506667 seconds.
-  path: Assets/Zurtle.blend
-  artifactKey: Guid(501c3bee6e0faf44183a0f96cdb1352c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zurtle.blend using Guid(501c3bee6e0faf44183a0f96cdb1352c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d71f8a675435d97daa69f5ee99a82f') in 0.092143 seconds 
+  Time since last request: 13.296629 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb1f25bf599cca9932e97837f2e40a5') in 0.039407 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 338.134296 seconds.
-  path: Assets/Zurtle.blend
-  artifactKey: Guid(501c3bee6e0faf44183a0f96cdb1352c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zurtle.blend using Guid(501c3bee6e0faf44183a0f96cdb1352c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be676fe689f18c14b97413d472052a9') in 0.094100 seconds 
+  Time since last request: 2.917035 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf62dd6d3e30a2f3767f637f2af82c4') in 0.047891 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.954215 seconds.
-  path: Assets/Zurtle.blend1
-  artifactKey: Guid(e5da5cee2e01689429d277d3ec5ed5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zurtle.blend1 using Guid(e5da5cee2e01689429d277d3ec5ed5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4530772fe89741fac0bd93e1927e2e57') in 0.012418 seconds 
+  Time since last request: 3.412739 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df44353768736a32618cc2abb5e2115') in 0.064092 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.847045 seconds.
-  path: Assets/FBX/textures/Zurtle.blend1
-  artifactKey: Guid(df154d5ad975a244e8f04e6b1a413bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/textures/Zurtle.blend1 using Guid(df154d5ad975a244e8f04e6b1a413bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e7a7ab2396649078f9831eb1e0bd05') in 0.006429 seconds 
+  Time since last request: 7.184152 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6598fdd9684f6cfd551cd46b015851b5') in 0.043366 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 402.559415 seconds.
-  path: Assets/Zurtle.blend
-  artifactKey: Guid(501c3bee6e0faf44183a0f96cdb1352c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zurtle.blend using Guid(501c3bee6e0faf44183a0f96cdb1352c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b0b14bff86eebfc562b95ff1599bbc') in 0.051110 seconds 
+  Time since last request: 1.350011 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c05c32d487b69d5bb08efffee391e5e') in 0.048768 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.821614 seconds.
-  path: Assets/Zurtle.blend1
-  artifactKey: Guid(e5da5cee2e01689429d277d3ec5ed5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zurtle.blend1 using Guid(e5da5cee2e01689429d277d3ec5ed5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61ae52336c42f00723ee6163b7876f3') in 0.009040 seconds 
+  Time since last request: 3.642337 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc0fa11f228d5461424a199d70ac11a') in 0.068962 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 160.785905 seconds.
-  path: Assets/FBX/textures/metal rusty 21-l-color.jpg
-  artifactKey: Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/textures/metal rusty 21-l-color.jpg using Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e7bbad78e6f4475eb872f4b0f60889') in 0.041751 seconds 
+  Time since last request: 1.540663 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e59d2ea311e46abbfad92aae4fb1c6') in 0.047513 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.331225 seconds.
-  path: Assets/FBX/Materials/metal rusty 21-l-color.mat
-  artifactKey: Guid(ac22ac4ada7fcf547a1ca117f63d584b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/Materials/metal rusty 21-l-color.mat using Guid(ac22ac4ada7fcf547a1ca117f63d584b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c7fa40e94d7e686609958f49a90121') in 0.036355 seconds 
+  Time since last request: 1.771402 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa14a95b1eb83a116ae217658c33907') in 0.027778 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.418168 seconds.
-  path: Assets/FBX/textures/metal rusty 21-l-color.jpg
-  artifactKey: Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/textures/metal rusty 21-l-color.jpg using Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867321bc3bad34e38015223e6dcf61d8') in 0.017527 seconds 
+  Time since last request: 1.896898 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9256e4db7564b5e81d5e66432b991158') in 0.049369 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.278541 seconds.
-  path: Assets/FBX/textures/metal rusty 21-l-color.jpg
-  artifactKey: Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/textures/metal rusty 21-l-color.jpg using Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f7c538344652865f1c329ff2b77cf9') in 0.025895 seconds 
+  Time since last request: 6.149699 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ec9fccd68e76376d922ad89ce4c757') in 0.063689 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.306027 seconds.
-  path: Assets/FBX/textures/metal rusty 21-l-color.jpg
-  artifactKey: Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/textures/metal rusty 21-l-color.jpg using Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c57fe5d80560ab23f14a8278e7f30db') in 0.030297 seconds 
+  Time since last request: 6.248308 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85cbda6d8c44bbaebe1f9c23cb232ab2') in 0.047957 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.910258 seconds.
-  path: Assets/FBX/textures/metal rusty 21-l-color.jpg
-  artifactKey: Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/textures/metal rusty 21-l-color.jpg using Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd28ca500dd318a3f4dacd6c2f9748f') in 0.059724 seconds 
+  Time since last request: 6.070811 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792f0f5f84363671cb5e1c3eda23a354') in 0.043783 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.929860 seconds.
-  path: Assets/FBX/textures/metal rusty 21-l-color.jpg
-  artifactKey: Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/textures/metal rusty 21-l-color.jpg using Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26bf83f76f64adad4ff344776bc50e6') in 0.077812 seconds 
+  Time since last request: 3.493457 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01c654ea521e9d024a12ff165ba31b7') in 0.040600 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.737720 seconds.
-  path: Assets/FBX/textures/metal rusty 21-l-color.jpg
-  artifactKey: Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/textures/metal rusty 21-l-color.jpg using Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6e9d3f89db7f391fdb2673f68a1cae') in 0.057157 seconds 
+  Time since last request: 3.860607 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e367cec9d027101a0b31a248b233c75b') in 0.024271 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.856569 seconds.
-  path: Assets/FBX/textures/metal rusty 21-l-color.jpg
-  artifactKey: Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/textures/metal rusty 21-l-color.jpg using Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0cca282bc41fa7fe49febc363830c7') in 0.038274 seconds 
+  Time since last request: 3.196601 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c217268bc60218b715c4410c1fdb353') in 0.077416 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.439013 seconds.
-  path: Assets/FBX/textures/metal rusty 21-l-color.jpg
-  artifactKey: Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/textures/metal rusty 21-l-color.jpg using Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d5bc2a10fe974127bcf716a3cef9d9') in 0.014458 seconds 
+  Time since last request: 7.650895 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355640d0c8241b15a51e2ff2ca9b0b3a') in 0.091399 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.565211 seconds.
-  path: Assets/FBX/textures/metal rusty 21-l-color.jpg
-  artifactKey: Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/textures/metal rusty 21-l-color.jpg using Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aeecf621ebe244a989c91597c52617a') in 0.049530 seconds 
+  Time since last request: 2.123983 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8203e0ed943931d3d5c53b1809267e3') in 0.067997 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.585308 seconds.
-  path: Assets/FBX/textures/metal rusty 21-l-color.jpg
-  artifactKey: Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/textures/metal rusty 21-l-color.jpg using Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa2c0e87ca53440919a0dab73c3aa9f') in 0.054185 seconds 
+  Time since last request: 65.392493 seconds.
+  path: Assets/FBX/textures/bark_dark-l-color.jpg
+  artifactKey: Guid(3096b26860497fb4cb7331f318282a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/bark_dark-l-color.jpg using Guid(3096b26860497fb4cb7331f318282a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f65ac9224c0da2d253117e25f56d9a4') in 0.066559 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.558080 seconds.
-  path: Assets/FBX/textures/metal rusty 21-l-color.jpg
-  artifactKey: Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/textures/metal rusty 21-l-color.jpg using Guid(b7688af0979f91245bc789987f4c3290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e208fd48aabc931a0a4aa25b92e80e4') in 0.048444 seconds 
+  Time since last request: 16.956244 seconds.
+  path: Assets/FBX/textures/bark_dark-l-color.jpg
+  artifactKey: Guid(3096b26860497fb4cb7331f318282a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/bark_dark-l-color.jpg using Guid(3096b26860497fb4cb7331f318282a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939adadecc4baaff9ba17a90a347f903') in 0.047990 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 56.242068 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(f285fad15359cca4781066a0b33d9736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(f285fad15359cca4781066a0b33d9736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e51ba106cd2acd7a9bacef4a8c9d52') in 0.202109 seconds 
+  Time since last request: 2.110024 seconds.
+  path: Assets/FBX/textures/bark_dark-l-color.jpg
+  artifactKey: Guid(3096b26860497fb4cb7331f318282a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/bark_dark-l-color.jpg using Guid(3096b26860497fb4cb7331f318282a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87956e384e075221028e0873d1bfac0a') in 0.061472 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.922230 seconds.
-  path: Assets/Tree.prefab
-  artifactKey: Guid(51764d2094594484088cb0bb5ac400a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree.prefab using Guid(51764d2094594484088cb0bb5ac400a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511cf2b4635d0030171370f0bf4b6357') in 0.807413 seconds 
+  Time since last request: 8.158545 seconds.
+  path: Assets/FBX/textures/bark_dark-l-color.jpg
+  artifactKey: Guid(3096b26860497fb4cb7331f318282a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/bark_dark-l-color.jpg using Guid(3096b26860497fb4cb7331f318282a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfdfc0d69899ed79186e3aa1e62f699') in 0.050284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.587226 seconds.
+  path: Assets/FBX/textures/bark_dark-l-color.jpg
+  artifactKey: Guid(3096b26860497fb4cb7331f318282a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/bark_dark-l-color.jpg using Guid(3096b26860497fb4cb7331f318282a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab8743b4dc39fc577ed6177e6680145') in 0.037176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 108.833591 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842eedb2ac01da9ca07344d4b1b97c57') in 0.020420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.309522 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3f97d4280c763f380cff1c1736da56') in 0.049460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.824591 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad46f74cb8030f382bdd207a12de7e5f') in 0.051098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.665384 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eceaf2553e1f40ddf568cfda1d2299b') in 0.059082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.065560 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d45405c83add0ede2408e63c5468d7') in 0.069829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.706375 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e457461526350d5294aa22d7a4d62c3') in 0.028763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.088818 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5d02c8ff18a25a0f9bb6e6ebff6545') in 0.041568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.982653 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6f7d2602508256e58440fa283811f6') in 0.024582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.928370 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3252e6554dadd6ac6ee3aa57e739df4a') in 0.059802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.951140 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58ee8b3cac4d10ca743be45c03e9447') in 0.082613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.302353 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48659c6be74a83d4928c9c1b8acdf99b') in 0.072927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.439401 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192ace0139fef3df60f729c66eecd75f') in 0.066658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.422232 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ad519795389708e1db87d0750f013e') in 0.037268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.487908 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b9a1ddd7c1d7349a19bc6c251ef353') in 0.085414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.827039 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528bf4b0fad3da071fb1ecd957dba3d8') in 0.059867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.850611 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57f3b01915dbbcac7081b902a0752be') in 0.094585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.137698 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90034d08c7400c8fa6c2e6cc6f222861') in 0.113150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.995645 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2fb1011fb1974998bcb51b6ac750ff') in 0.098841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.103053 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b688032ee7d80778b0e36e1829efd1b') in 0.075023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.837055 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42eafb11748f04d50787c07e6474e354') in 0.084114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.941865 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068019732c82e2bb3c973d837b424b2c') in 0.053521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.197264 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ec6a7cd28cd2aff5cbcbf0fb008841') in 0.030259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.040476 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282202cef8fb2edf3cfdfab6b8b06f3c') in 0.121916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.523445 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e4c4d205a3d562d24c29eb3b1f1431') in 0.047077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.986797 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b1baee66e4acd59088d67498d3e1d6') in 0.109114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.903956 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290013376001c953a34ae69043d2f6c5') in 0.047405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.591506 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566358510707c040817ea56837c6e369') in 0.076955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.199761 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba6fdeb3b8774b20187030a5123e9d7') in 0.073549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.888191 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d43c12b0ef290f9fcb0448f20f846d') in 0.062454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.635209 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030488f8e06a91b8b05ce7576edebcf1') in 0.061485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.996548 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e492547a4fb15d21e51ea1d1bb37be') in 0.054708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.040706 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb59762ce02cee05588acbc337f04cc9') in 0.075803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.107635 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0bfbc257db9e7b95283948c9aee428') in 0.045384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.523700 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368c74432bf45c79881b14a40436fd25') in 0.016543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.688226 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de6f35066df1df1994ff745dfa47a8e') in 0.056456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.305400 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2816ead6ec674af76a48433e0137e6') in 0.044057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.652148 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae8412cb145ade18549103c7c782ee9') in 0.027304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.478996 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd631fa924c3d178291fb2a948086d1f2') in 0.029634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.835937 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8ec9adbb7d33e74903a328b0c66671') in 0.054794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.819929 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07974fdf5e28cdc80faebfd72cd94e6a') in 0.033555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.831521 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fc17ea6eb157479b5e0b8d5bb892fe') in 0.026573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.685643 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8caca3afb6e32ea85e1f1d5aaa5a8bb9') in 0.060979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.908502 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1250a1ce986d0607c8ae2a37a3319bd6') in 0.039174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.979456 seconds.
+  path: Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg
+  artifactKey: Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/ground_bamboo_leaves-l-color.jpg using Guid(409405e1733231640ba16c0b13e96594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9009f630fac9ffccaf4df1485fdce7a8') in 0.070374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.802549 seconds.
+  path: Assets/FBX/textures/Material.001 Base Color.png
+  artifactKey: Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/Material.001 Base Color.png using Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62240f7d144739c50af04a27968495b1') in 0.155467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.319862 seconds.
+  path: Assets/FBX/textures/Material.001 Base Color.png
+  artifactKey: Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/Material.001 Base Color.png using Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1b3b6271e1d6f1d0b67e53cc03cd2f') in 0.065549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.017260 seconds.
+  path: Assets/FBX/textures/Material.001 Base Color.png
+  artifactKey: Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/Material.001 Base Color.png using Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada7d671c74b0b1987f675292e60213b') in 0.140367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.346351 seconds.
+  path: Assets/FBX/textures/Material.001 Base Color.png
+  artifactKey: Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/Material.001 Base Color.png using Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69bf75834796936c640c766ff345943d') in 0.056101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.761353 seconds.
+  path: Assets/FBX/textures/Material.001 Base Color.png
+  artifactKey: Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/Material.001 Base Color.png using Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b034f9786232f1c14e2f10f666c572a') in 0.084949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.824817 seconds.
+  path: Assets/FBX/textures/Material.001 Base Color.png
+  artifactKey: Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/Material.001 Base Color.png using Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2137ac31f40fd694c5ca805aa7101115') in 0.152697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.450412 seconds.
+  path: Assets/FBX/textures/Material.001 Base Color.png
+  artifactKey: Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/Material.001 Base Color.png using Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91140f3644bb96cb244c05b3efb699ce') in 0.037497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.189652 seconds.
+  path: Assets/FBX/textures/Material.001 Base Color.png
+  artifactKey: Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/Material.001 Base Color.png using Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c98bf90d8ee304886dbea682be1b61c') in 0.045706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.923671 seconds.
+  path: Assets/FBX/textures/Material.001 Base Color.png
+  artifactKey: Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/Material.001 Base Color.png using Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228f2bb75282764950cad7396c564576') in 0.071554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.609028 seconds.
+  path: Assets/FBX/textures/Material.001 Base Color.png
+  artifactKey: Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/Material.001 Base Color.png using Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ccbae1b049dc37c7ec9c3dcfac7875') in 0.120959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.732434 seconds.
+  path: Assets/FBX/textures/Material.001 Base Color.png
+  artifactKey: Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/Material.001 Base Color.png using Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f99195db1144d75a12015d64f5fab8') in 0.023950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.166267 seconds.
+  path: Assets/FBX/textures/Material.001 Base Color.png
+  artifactKey: Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/Material.001 Base Color.png using Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e9d476c167f0d9692ef017830d5fb4') in 0.036815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.188742 seconds.
+  path: Assets/FBX/textures/Material.001 Base Color.png
+  artifactKey: Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/Material.001 Base Color.png using Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff6a36a51f776bb96f6d9efaa67de7b') in 0.047631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.137771 seconds.
+  path: Assets/FBX/textures/Material.001 Base Color.png
+  artifactKey: Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/Material.001 Base Color.png using Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb8f4a6d3175abd06425907b35a9863') in 0.045478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.303028 seconds.
+  path: Assets/FBX/textures/Material.001 Base Color.png
+  artifactKey: Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/Material.001 Base Color.png using Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3547123910904e95314f2fd03153bdbe') in 0.074144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.605860 seconds.
+  path: Assets/FBX/textures/Material.001 Base Color.png
+  artifactKey: Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/Material.001 Base Color.png using Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b219d30a23ed5e3102f78952b67b159') in 0.045329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.816438 seconds.
+  path: Assets/FBX/textures/Material.001 Base Color.png
+  artifactKey: Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/Material.001 Base Color.png using Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb6e4cce7a8cb6b53b0842d75638c18') in 0.060459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.280530 seconds.
+  path: Assets/FBX/textures/Material.001 Base Color.png
+  artifactKey: Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/Material.001 Base Color.png using Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5f173039b1f876f17699a27c72fd9f') in 0.049104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.985018 seconds.
+  path: Assets/FBX/textures/Material.001 Base Color.png
+  artifactKey: Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/Material.001 Base Color.png using Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba19bc19c6562c0b630b6af84c64ea8') in 0.044187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.338545 seconds.
+  path: Assets/FBX/textures/Material.001 Base Color.png
+  artifactKey: Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/Material.001 Base Color.png using Guid(1708fe00dd5894047887cc1c02b8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5bf1acda79c1ed5792080c3c48a833') in 0.015978 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.068854 seconds.
+Registered in 0.005444 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.027 seconds
+- Completed reload, in  1.366 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1027ms)
-		BeginReloadAssembly (153ms)
+	ReloadAssembly (1367ms)
+		BeginReloadAssembly (144ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (808ms)
-			LoadAssemblies (118ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1151ms)
+			LoadAssemblies (175ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (245ms)
+			SetupTypeCache (427ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (284ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (414ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (287ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.3 MB.
+System memory in use after: 95.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2055.
+Total: 3.733400 ms (FindLiveObjects: 0.146800 ms CreateObjectMapping: 0.052900 ms MarkObjects: 3.499100 ms  DeleteObjects: 0.033200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004235 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.143 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1143ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (892ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (368ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.4 MB.
+System memory in use after: 95.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2058.
+Total: 2.878300 ms (FindLiveObjects: 0.153300 ms CreateObjectMapping: 0.056700 ms MarkObjects: 2.633300 ms  DeleteObjects: 0.033700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005118 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.442 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1442ms)
+		BeginReloadAssembly (315ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (124ms)
+		EndReloadAssembly (1049ms)
+			LoadAssemblies (217ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (467ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (294ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (164ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.4 MB.
+System memory in use after: 95.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2061.
+Total: 3.999600 ms (FindLiveObjects: 0.864400 ms CreateObjectMapping: 0.077100 ms MarkObjects: 3.034100 ms  DeleteObjects: 0.022800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.072115 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.083 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1083ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (876ms)
+			LoadAssemblies (230ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (172ms)
 				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.5 MB.
-System memory in use after: 88.6 MB.
+System memory in use before: 95.4 MB.
+System memory in use after: 95.5 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2033.
-Total: 2.790400 ms (FindLiveObjects: 0.120800 ms CreateObjectMapping: 0.041600 ms MarkObjects: 2.580900 ms  DeleteObjects: 0.046600 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2064.
+Total: 2.578000 ms (FindLiveObjects: 0.143600 ms CreateObjectMapping: 0.060900 ms MarkObjects: 2.353000 ms  DeleteObjects: 0.019700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007722 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.086 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1086ms)
+		BeginReloadAssembly (171ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (847ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (302ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (275ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.4 MB.
+System memory in use after: 95.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2067.
+Total: 2.436400 ms (FindLiveObjects: 0.141000 ms CreateObjectMapping: 0.051000 ms MarkObjects: 2.224600 ms  DeleteObjects: 0.019100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004799 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.991 seconds
+Domain Reload Profiling:
+	ReloadAssembly (992ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (777ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.4 MB.
+System memory in use after: 95.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2070.
+Total: 3.137400 ms (FindLiveObjects: 0.189900 ms CreateObjectMapping: 0.071800 ms MarkObjects: 2.848400 ms  DeleteObjects: 0.026100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012401 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.178 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1179ms)
+		BeginReloadAssembly (204ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (891ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (339ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.4 MB.
+System memory in use after: 95.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2073.
+Total: 8.195900 ms (FindLiveObjects: 5.352500 ms CreateObjectMapping: 0.067700 ms MarkObjects: 2.750400 ms  DeleteObjects: 0.024000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010861 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.025 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1025ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (842ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (247ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (315ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.4 MB.
+System memory in use after: 95.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2076.
+Total: 2.385500 ms (FindLiveObjects: 0.127400 ms CreateObjectMapping: 0.045000 ms MarkObjects: 2.193000 ms  DeleteObjects: 0.019400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004670 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.198 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1198ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1000ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (324ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.4 MB.
+System memory in use after: 95.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2079.
+Total: 2.680900 ms (FindLiveObjects: 0.163200 ms CreateObjectMapping: 0.052700 ms MarkObjects: 2.440900 ms  DeleteObjects: 0.023000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007351 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.000 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1000ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (809ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.4 MB.
+System memory in use after: 95.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2082.
+Total: 2.404700 ms (FindLiveObjects: 0.140500 ms CreateObjectMapping: 0.051100 ms MarkObjects: 2.190700 ms  DeleteObjects: 0.021300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004677 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.989 seconds
+Domain Reload Profiling:
+	ReloadAssembly (989ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (784ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.4 MB.
+System memory in use after: 95.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2085.
+Total: 3.253600 ms (FindLiveObjects: 0.170700 ms CreateObjectMapping: 0.084100 ms MarkObjects: 2.975200 ms  DeleteObjects: 0.022400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017118 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.068 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1069ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (832ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (311ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (303ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.4 MB.
+System memory in use after: 95.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2088.
+Total: 2.704100 ms (FindLiveObjects: 0.241600 ms CreateObjectMapping: 0.069500 ms MarkObjects: 2.369600 ms  DeleteObjects: 0.022300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006262 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.267 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1268ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1067ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (281ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (125ms)
+			SetupLoadedEditorAssemblies (447ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (320ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.4 MB.
+System memory in use after: 95.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2091.
+Total: 4.322000 ms (FindLiveObjects: 0.274300 ms CreateObjectMapping: 0.256900 ms MarkObjects: 3.754700 ms  DeleteObjects: 0.034300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011949 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.998 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2999ms)
+		BeginReloadAssembly (526ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (148ms)
+		EndReloadAssembly (2244ms)
+			LoadAssemblies (540ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1010ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (151ms)
+			SetupLoadedEditorAssemblies (417ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (175ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.4 MB.
+System memory in use after: 95.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2094.
+Total: 3.058000 ms (FindLiveObjects: 0.129500 ms CreateObjectMapping: 0.045000 ms MarkObjects: 2.863400 ms  DeleteObjects: 0.019200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007314 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.384 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1384ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1148ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (400ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.4 MB.
+System memory in use after: 95.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2097.
+Total: 2.382100 ms (FindLiveObjects: 0.134600 ms CreateObjectMapping: 0.047700 ms MarkObjects: 2.180800 ms  DeleteObjects: 0.018100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005147 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.292 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1292ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1100ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (422ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.4 MB.
+System memory in use after: 95.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2100.
+Total: 2.487300 ms (FindLiveObjects: 0.151100 ms CreateObjectMapping: 0.051100 ms MarkObjects: 2.261200 ms  DeleteObjects: 0.022900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005970 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Domain Reload Profiling:
+	ReloadAssembly (936ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (735ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (243ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.4 MB.
+System memory in use after: 95.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2103.
+Total: 2.390600 ms (FindLiveObjects: 0.133700 ms CreateObjectMapping: 0.050000 ms MarkObjects: 2.189000 ms  DeleteObjects: 0.017300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005421 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.264 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1265ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (962ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (404ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.5 MB.
+System memory in use after: 95.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2106.
+Total: 2.762100 ms (FindLiveObjects: 0.186600 ms CreateObjectMapping: 0.066800 ms MarkObjects: 2.483400 ms  DeleteObjects: 0.024300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006805 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1057ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (843ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (340ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.5 MB.
+System memory in use after: 95.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2109.
+Total: 2.865600 ms (FindLiveObjects: 0.166900 ms CreateObjectMapping: 0.055100 ms MarkObjects: 2.617300 ms  DeleteObjects: 0.024800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006383 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.931 seconds
+Domain Reload Profiling:
+	ReloadAssembly (931ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (736ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (242ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.5 MB.
+System memory in use after: 95.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2112.
+Total: 3.690600 ms (FindLiveObjects: 0.181500 ms CreateObjectMapping: 0.066700 ms MarkObjects: 3.413100 ms  DeleteObjects: 0.028100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004874 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.244 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1245ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (784ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.5 MB.
+System memory in use after: 95.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2115.
+Total: 8.357000 ms (FindLiveObjects: 0.399200 ms CreateObjectMapping: 0.258600 ms MarkObjects: 7.671700 ms  DeleteObjects: 0.026300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005018 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.957 seconds
+Domain Reload Profiling:
+	ReloadAssembly (957ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (736ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (263ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.5 MB.
+System memory in use after: 95.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2118.
+Total: 2.619700 ms (FindLiveObjects: 0.129600 ms CreateObjectMapping: 0.045700 ms MarkObjects: 2.423700 ms  DeleteObjects: 0.019600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1983.853010 seconds.
+  path: Assets/FBX/textures/bricks_dutch_clean-l-color.jpg
+  artifactKey: Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/bricks_dutch_clean-l-color.jpg using Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb9b1db0159c626032651a7077a1a68') in 0.065266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.541918 seconds.
+  path: Assets/FBX/textures/bricks_dutch_clean-l-color.jpg
+  artifactKey: Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/bricks_dutch_clean-l-color.jpg using Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705432a7131cc4b62b5cf3b55b779a1e') in 0.035986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.489952 seconds.
+  path: Assets/FBX/textures/bricks_dutch_clean-l-color.jpg
+  artifactKey: Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/bricks_dutch_clean-l-color.jpg using Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0c7c3743b8f14339a59c54cf53256f') in 0.047498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.860811 seconds.
+  path: Assets/FBX/textures/bricks_dutch_clean-l-color.jpg
+  artifactKey: Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/bricks_dutch_clean-l-color.jpg using Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c585cb96059563c58ee37f21d96a40') in 0.052723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.788048 seconds.
+  path: Assets/FBX/textures/bricks_dutch_clean-l-color.jpg
+  artifactKey: Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/bricks_dutch_clean-l-color.jpg using Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025f8169a61a0e294b525cac3e340677') in 0.038895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.586073 seconds.
+  path: Assets/FBX/textures/bricks_dutch_clean-l-color.jpg
+  artifactKey: Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/bricks_dutch_clean-l-color.jpg using Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f7ed2ff05e96d0641ca3b5c1fbda19') in 0.030054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.822816 seconds.
+  path: Assets/FBX/textures/bricks_dutch_clean-l-color.jpg
+  artifactKey: Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/bricks_dutch_clean-l-color.jpg using Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16acb53046515a283afba2ec71fb8f1c') in 0.039244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.878144 seconds.
+  path: Assets/FBX/textures/bricks_dutch_clean-l-color.jpg
+  artifactKey: Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/bricks_dutch_clean-l-color.jpg using Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e4104bed4e75da84c9cf42b318b7e6') in 0.046719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.661829 seconds.
+  path: Assets/FBX/textures/bricks_dutch_clean-l-color.jpg
+  artifactKey: Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/bricks_dutch_clean-l-color.jpg using Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb8a246ee37ea9cd0b9a6062a15bfff') in 0.042603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.319068 seconds.
+  path: Assets/FBX/textures/bricks_dutch_clean-l-color.jpg
+  artifactKey: Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/bricks_dutch_clean-l-color.jpg using Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01579fd9179bd3ef34f9a96e93641e86') in 0.082554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.946386 seconds.
+  path: Assets/FBX/textures/bricks_dutch_clean-l-color.jpg
+  artifactKey: Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/bricks_dutch_clean-l-color.jpg using Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db78988fcf087cd355ec8d387a04be07') in 0.036683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.448462 seconds.
+  path: Assets/FBX/textures/bricks_dutch_clean-l-color.jpg
+  artifactKey: Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/bricks_dutch_clean-l-color.jpg using Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403ff583052dff1a7d8d69a19da40c23') in 0.083373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 196.706033 seconds.
+  path: Assets/FBX/textures/bricks_dutch_clean-l-color.jpg
+  artifactKey: Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/bricks_dutch_clean-l-color.jpg using Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7fc1585aad966639391886346aad69c') in 0.062606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.921665 seconds.
+  path: Assets/FBX/textures/bricks_dutch_clean-l-color.jpg
+  artifactKey: Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/bricks_dutch_clean-l-color.jpg using Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a526b19d11f2a280038bdaa79dff4d') in 0.065508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.417739 seconds.
+  path: Assets/FBX/textures/bricks_dutch_clean-l-color.jpg
+  artifactKey: Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/textures/bricks_dutch_clean-l-color.jpg using Guid(03bd65ac228ba3947a8461334e2c45e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a266a57d74d168fd44c5974fe76a76') in 0.055997 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.038632 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.274 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1274ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1059ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (383ms)
+			ReleaseScriptCaches (39ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (339ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.5 MB.
+System memory in use after: 95.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2121.
+Total: 2.630900 ms (FindLiveObjects: 0.150200 ms CreateObjectMapping: 0.050600 ms MarkObjects: 2.405400 ms  DeleteObjects: 0.023800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

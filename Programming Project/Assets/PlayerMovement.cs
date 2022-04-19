@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
 
-    public float speed = 12f;
+    public float speed = 7f;
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
 
@@ -19,7 +19,13 @@ public class PlayerMovement : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+      {
+      if (Input.GetKey("left shift")){ // If Player Presses Shift Key
+	    speed = 11f; // Sprint Double Speed
+      } else {
+   	  speed = 7f; // Disable Sprint
+      }
+
       isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
       if (isGrounded && velocity.y < 0)
