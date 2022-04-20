@@ -6,9 +6,9 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
 
-    public float speed = 7f;
+    public float speed = 9f;
     public float gravity = -9.81f;
-    public float jumpHeight = 3f;
+    public float jumpHeight = 1f;
 
     public Transform groundCheck;
     public float groundDistance = 0.4f;
@@ -21,9 +21,9 @@ public class PlayerMovement : MonoBehaviour
     void Update()
       {
       if (Input.GetKey("left shift")){ // If Player Presses Shift Key
-	    speed = 11f; // Sprint Double Speed
+	    speed = 12f; // Sprint Double Speed
       } else {
-   	  speed = 7f; // Disable Sprint
+   	  speed = 9f; // Disable Sprint
       }
 
       isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
