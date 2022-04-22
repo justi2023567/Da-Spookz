@@ -5,7 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public void ExitButton() {
+      Application.Quit();
+      Debug.Log("Game Closed");
+    }
+
     public void PlayGame()
     {
       SceneManager.LoadScene("Game");
