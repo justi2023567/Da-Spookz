@@ -5,34 +5,41 @@ using UnityEngine;
 public class PickUp : MonoBehaviour
 {
 
-    public float pickUpRange=5;
+    public float pickUpRange = 5;
     public float moveForce = 250;
 
+    //Adds holdParent to Hierarchy tab
     public Transform holdParent;
+    //Stores GameObject as varable heldObj
     private GameObject heldObj;
 
     // Update is called once per frame
     void Update()
     {
+     //if the E key is pressed
      if (Input.GetKeyDown(KeyCode.E) /* other function GetKey and GetKeyUp number on top are Alpha1-9 */)
      {
-
+       //if the held object is null
        if (heldObj == null)
        {
 
+       //Find the posiition of object
        RaycastHit hit;
 
+       //if position of the object is the RaycastHit change position to ObjectHolder next to player
        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, pickUpRange))
        {
          PickupObject(hit.transform.gameObject);
        }
      }
+     //if else drop held object
      else
      {
       DropObject();
      }
    }
 
+     //checks if heldObj is null
      if (heldObj != null)
      {
         MoveObject();
