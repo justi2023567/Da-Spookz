@@ -4,4 +4,4 @@ To test game:
 2. Extract all
 3. Go into Unity Game folder
 4. Launch Zombie Sewer.exe
-5. If prompted with Windows Scurity, click 'Read More' then 'Run Anyway'
+5. If prompted with Windows Security, click 'Read More' then 'Run Anyway'
