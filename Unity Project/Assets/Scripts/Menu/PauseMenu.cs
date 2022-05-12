@@ -16,9 +16,9 @@ public class PauseMenu : MonoBehaviour
   }
 
 
-  public void PlayGame()
+  public void LoadMainMenu()
   {
-    SceneManager.LoadScene("Game");
+    SceneManager.LoadScene("Main Menu");
   }
 
   void Update() {
