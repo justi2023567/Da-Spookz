@@ -11178,6 +11178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookRadius: 10
+  health: {fileID: 451591642}
 --- !u!54 &1062592206
 Rigidbody:
   m_ObjectHideFlags: 0
