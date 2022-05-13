@@ -33,4 +33,25 @@ public class EnemyAi : MonoBehaviour
          }
       }
     }
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+
+    void FaceTarget()
+    {
+      Vector3 direction = (target.position - transform.position).normalized;
+      Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
+      transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f);
+    }
+
+     void OnDrawGizmosSelected()
+     {
+       Gizmos.color = Color.red;
+       Gizmos.DrawWireSphere(transform.position, lookRadius);
+     }
+
+}
+=======
+>>>>>>> Stashed changes
   }
+>>>>>>> bad7c187c9ecd5243bf4c3b87597726895f9b9c2
