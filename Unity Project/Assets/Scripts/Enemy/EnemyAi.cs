@@ -33,9 +33,6 @@ public class EnemyAi : MonoBehaviour
          }
       }
     }
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
 
     void FaceTarget()
     {
@@ -51,7 +48,3 @@ public class EnemyAi : MonoBehaviour
      }
 
 }
-=======
->>>>>>> Stashed changes
-  }
->>>>>>> bad7c187c9ecd5243bf4c3b87597726895f9b9c2
