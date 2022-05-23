@@ -29,7 +29,9 @@ public class shoot : MonoBehaviour
         if(Physics.Raycast(aiming.position, forward, 10, layerMask )){
           Debug.Log("enemy coming");
           if (Input.GetKeyDown(KeyCode.Q)) {
-            Destroy(enemy);
+            // find a fancy way for enemy death instead of thanos snap.
+            Destroy(enemy.GetComponent<CapsuleCollider>());
+            Destroy(enemy.GetComponent<EnemyAi>().agent);
 
           }
         }
