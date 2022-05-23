@@ -39,7 +39,7 @@ public class PickUp : MonoBehaviour
      }
    }
 
-     //checks if heldObj is null
+     //checks if heldObj is Not Empty 
      if (heldObj != null)
      {
         MoveObject();
