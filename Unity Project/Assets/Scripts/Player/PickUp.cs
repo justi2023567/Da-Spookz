@@ -12,8 +12,8 @@ public class PickUp : MonoBehaviour
     public Transform holdParent;
     public Transform holdParent2;
     //Stores GameObject as varable heldObj. one per hand
-    private GameObject heldObj;
-    private GameObject heldObj2;
+    public GameObject heldObj;
+    public GameObject heldObj2;
 
     private GameObject swap;
     // Update is called once per frame
@@ -39,7 +39,7 @@ public class PickUp : MonoBehaviour
      //if else drop held object
      else
      {
-       Debug.Log(heldObj);
+
       DropObject();
      }
    }
@@ -114,8 +114,7 @@ public class PickUp : MonoBehaviour
 
            heldObj2 = heldObj;
            heldObj = null;
-           Debug.Log(heldObj2);
-           Debug.Log(heldObj);
+          
          }
 
          else if (heldObj == null && heldObj2 != null)
