@@ -8,11 +8,14 @@ public class PickUp : MonoBehaviour
     public float pickUpRange = 5;
     public float moveForce = 250;
 
-    //Adds holdParent to Hierarchy tab
+    //Adds holdParent to Hierarchy tab. one per hand
     public Transform holdParent;
-    //Stores GameObject as varable heldObj
-    private GameObject heldObj;
+    public Transform holdParent2;
+    //Stores GameObject as varable heldObj. one per hand
+    public GameObject heldObj;
+    public GameObject heldObj2;
 
+    private GameObject swap;
     // Update is called once per frame
     void Update()
     {
@@ -29,28 +32,51 @@ public class PickUp : MonoBehaviour
        //if position of the object is the RaycastHit change position to ObjectHolder next to player
        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, pickUpRange))
        {
+         //Get it pickObj
          PickupObject(hit.transform.gameObject);
        }
      }
      //if else drop held object
      else
      {
+
       DropObject();
      }
    }
 
-     //checks if heldObj is Not Empty 
+     //checks if heldObj is Not Empty
      if (heldObj != null)
      {
         MoveObject();
      }
+     // also check the second hand.
+     if (heldObj2 != null)
+     {
+        MoveObject2();
+     }
+
+     if(Input.GetKeyDown(KeyCode.J))
+     {
+       Debug.Log("switch");
+       Switchhand();
+     }
   }
+  //Move the object to the hand aka ObjectHolder
       void MoveObject()
       {
         if (Vector3.Distance(heldObj.transform.position, holdParent.position) > 0.1f)
         {
            Vector3 moveDirection = (holdParent.position - heldObj.transform.position);
            heldObj.GetComponent<Rigidbody>().AddForce(moveDirection * moveForce);
+        }
+      }
+      // almost the same. just a two after it for it second hand to work
+      void MoveObject2()
+      {
+        if (Vector3.Distance(heldObj2.transform.position, holdParent2.position) > 0.1f)
+        {
+           Vector3 moveDirection = (holdParent2.position - heldObj2.transform.position);
+           heldObj2.GetComponent<Rigidbody>().AddForce(moveDirection * moveForce);
         }
       }
 
@@ -75,4 +101,28 @@ public class PickUp : MonoBehaviour
          heldObj.transform.parent = null;
          heldObj = null;
        }
+       void Switchhand()
+       {
+         if (heldObj != null && heldObj2 != null)
+         {
+            swap = heldObj;
+            heldObj = heldObj2;
+            heldObj2 = swap;
+         }
+         else if (heldObj != null && heldObj2 == null)
+         {
+
+           heldObj2 = heldObj;
+           heldObj = null;
+          
+         }
+
+         else if (heldObj == null && heldObj2 != null)
+         {
+           heldObj = heldObj2;
+           heldObj2 = null;
+         }
+       }
+
+
 }

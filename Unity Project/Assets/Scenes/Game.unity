@@ -10230,6 +10230,7 @@ Transform:
   m_LocalScale: {x: 1.2, y: 1.6383537, z: 1.2000004}
   m_Children:
   - {fileID: 1102351857}
+  - {fileID: 1134057194}
   m_Father: {fileID: 451591643}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0.478, y: 0, z: 0}
@@ -10262,6 +10263,9 @@ MonoBehaviour:
   pickUpRange: 6
   moveForce: 50
   holdParent: {fileID: 1102351857}
+  holdParent2: {fileID: 1134057194}
+  heldObj: {fileID: 0}
+  heldObj2: {fileID: 0}
 --- !u!1 &965888635
 GameObject:
   m_ObjectHideFlags: 0
@@ -11847,6 +11851,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1120263800}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1134057193
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1134057194}
+  m_Layer: 0
+  m_Name: ObjectHolder (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1134057194
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134057193}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.783, y: -0.52, z: 1.073}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 963194228}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1136608088
 GameObject:
   m_ObjectHideFlags: 0
@@ -37015,6 +37049,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 1062592203}
   aiming: {fileID: 1225574285}
+  checks: {fileID: 963194225}
+  gun: {fileID: 8026434360226842261}
 --- !u!33 &8036087435695580095
 MeshFilter:
   m_ObjectHideFlags: 0
