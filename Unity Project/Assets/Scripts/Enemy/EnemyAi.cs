@@ -9,7 +9,7 @@ public class EnemyAi : MonoBehaviour
      public float lookRadius = 10f;
      public GameObject health;
      Transform target;
-    public NavMeshAgent agent;
+     NavMeshAgent agent;
 
      void Start()
      {
@@ -19,7 +19,6 @@ public class EnemyAi : MonoBehaviour
 
      void Update()
      {
-       if (agent != null){
        timer += Time.deltaTime;
        float distance = Vector3.Distance(target.position, transform.position);
 
@@ -33,6 +32,5 @@ public class EnemyAi : MonoBehaviour
            timer = 0;
          }
       }
-    }
     }
   }
