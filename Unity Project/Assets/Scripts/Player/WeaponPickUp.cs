@@ -60,6 +60,7 @@ public class WeaponPickUp : MonoBehaviour
       currentWeapon.transform.position = equipPosition.position;
       currentWeapon.transform.parent = equipPosition;
       currentWeapon.transform.localEulerAngles = new Vector3(0f, 100f, 0f);
+      currentWeapon.transform.localScale = new Vector3 (0.2f, 0.2f, 0.2f);
       currentWeapon.GetComponent<Rigidbody>().isKinematic = true;
     }
 
@@ -67,6 +68,7 @@ public class WeaponPickUp : MonoBehaviour
     {
       currentWeapon.transform.parent = null;
       currentWeapon.GetComponent<Rigidbody>().isKinematic = false;
+      currentWeapon.transform.localScale = new Vector3 (0.2f, 0.2f, 0.2f);
       currentWeapon = null;
     }
   }
