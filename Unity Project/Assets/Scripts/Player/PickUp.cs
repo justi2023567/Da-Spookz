@@ -21,7 +21,7 @@ public class PickUp : MonoBehaviour
     void Update()
     {
      //if the F key is pressed
-     if (Input.GetKeyDown(KeyCode.F) /* other function GetKey and GetKeyUp number on top are Alpha1-9 */)
+     if (Input.GetKeyDown(KeyCode.Q) /* other function GetKey and GetKeyUp number on top are Alpha1-9 */)
      {
        //if the held object is null
        if (heldObj == null)

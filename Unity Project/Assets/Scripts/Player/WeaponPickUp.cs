@@ -31,7 +31,7 @@ public class WeaponPickUp : MonoBehaviour
       }
       if (currentWeapon != null)
       {
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.F))
           Drop();
       }
     }
