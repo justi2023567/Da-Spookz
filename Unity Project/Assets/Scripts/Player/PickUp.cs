@@ -17,6 +17,8 @@ public class PickUp : MonoBehaviour
 
     private GameObject swap;
     // Update is called once per frame
+
+  
     void Update()
     {
      //if the E key is pressed
@@ -114,7 +116,7 @@ public class PickUp : MonoBehaviour
 
            heldObj2 = heldObj;
            heldObj = null;
-          
+
          }
 
          else if (heldObj == null && heldObj2 != null)
