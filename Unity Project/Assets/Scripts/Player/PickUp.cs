@@ -16,11 +16,12 @@ public class PickUp : MonoBehaviour
     public GameObject heldObj2;
 
     private GameObject swap;
+
     // Update is called once per frame
     void Update()
     {
-     //if the E key is pressed
-     if (Input.GetKeyDown(KeyCode.E) /* other function GetKey and GetKeyUp number on top are Alpha1-9 */)
+     //if the F key is pressed
+     if (Input.GetKeyDown(KeyCode.F) /* other function GetKey and GetKeyUp number on top are Alpha1-9 */)
      {
        //if the held object is null
        if (heldObj == null)
@@ -114,7 +115,7 @@ public class PickUp : MonoBehaviour
 
            heldObj2 = heldObj;
            heldObj = null;
-          
+
          }
 
          else if (heldObj == null && heldObj2 != null)
