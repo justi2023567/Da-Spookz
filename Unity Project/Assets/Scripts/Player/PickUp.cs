@@ -16,7 +16,7 @@ public class PickUp : MonoBehaviour
     public GameObject heldObj2;
 
     private GameObject swap;
-
+    private Vector3 scale;
     // Update is called once per frame
     void Update()
     {
@@ -34,6 +34,7 @@ public class PickUp : MonoBehaviour
        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, pickUpRange))
        {
          //Get it pickObj
+         scale = hit.transform.localScale;
          PickupObject(hit.transform.gameObject);
        }
      }
@@ -56,11 +57,7 @@ public class PickUp : MonoBehaviour
         MoveObject2();
      }
 
-     if(Input.GetKeyDown(KeyCode.J))
-     {
-       Debug.Log("switch");
-       Switchhand();
-     }
+
   }
   //Move the object to the hand aka ObjectHolder
       void MoveObject()
@@ -69,6 +66,7 @@ public class PickUp : MonoBehaviour
         {
            Vector3 moveDirection = (holdParent.position - heldObj.transform.position);
            heldObj.GetComponent<Rigidbody>().AddForce(moveDirection * moveForce);
+           heldObj.transform.localScale = scale;
         }
       }
       // almost the same. just a two after it for it second hand to work
@@ -78,6 +76,7 @@ public class PickUp : MonoBehaviour
         {
            Vector3 moveDirection = (holdParent2.position - heldObj2.transform.position);
            heldObj2.GetComponent<Rigidbody>().AddForce(moveDirection * moveForce);
+
         }
       }
 
@@ -85,6 +84,7 @@ public class PickUp : MonoBehaviour
        {
          if (pickObj.GetComponent<Rigidbody>())
          {
+
            Rigidbody objRig = pickObj.GetComponent<Rigidbody>();
            objRig.useGravity = false;
            objRig.drag = 10;
@@ -100,30 +100,10 @@ public class PickUp : MonoBehaviour
          heldRig.drag = 1;
 
          heldObj.transform.parent = null;
+         heldObj.transform.localScale = scale;
          heldObj = null;
        }
-       void Switchhand()
-       {
-         if (heldObj != null && heldObj2 != null)
-         {
-            swap = heldObj;
-            heldObj = heldObj2;
-            heldObj2 = swap;
-         }
-         else if (heldObj != null && heldObj2 == null)
-         {
 
-           heldObj2 = heldObj;
-           heldObj = null;
-
-         }
-
-         else if (heldObj == null && heldObj2 != null)
-         {
-           heldObj = heldObj2;
-           heldObj2 = null;
-         }
-       }
 
 
 }
